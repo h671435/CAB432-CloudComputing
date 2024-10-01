@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Page</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+<div class="container">
+    <h1>Main Page</h1>
+    <div class="button-group">
+        <a href="/logout" class="button-link">Logout</a>
+        <form action="/upload" method="post" enctype="multipart/form-data">
+            <div class="form-group">
+                <input type="file" name="uploadFile" required />
+            </div>
+            <input type="submit" value="Upload!" />
+        </form>
+        <a href="/uploads.html" class="button-link">
+            <button>View Uploaded Files</button>
+        </a>
+    </div>
+</div>
+</body>
+</html>
