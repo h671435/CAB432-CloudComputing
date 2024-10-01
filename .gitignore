@@ -1,0 +1,62 @@
+# Node.js dependencies
+node_modules/
+
+# Docker
+docker-compose.override.yml
+*.log
+.dockerignore
+*.tar
+
+# AWS
+.aws/
+*.pem
+
+# Environment variables
+.env
+
+# Build outputs
+dist/
+build/
+
+# Large media files
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.flv
+*.webm
+
+# Log files
+*.log
+npm-debug.log*
+yarn-error.log
+
+# Temporary files
+*.tmp
+*.swp
+*.pid
+*.seed
+*.pid.lock
+
+# IDE or Editor specific files
+.idea/
+.vscode/
+*.iml
+
+# Documentation and coverage files
+coverage/
+*.js.html
+*.css
+*.json
+
+# Test-related files
+test/
+bench/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Other
+filelist.txt
+untrackedfiles.txt
